@@ -89,7 +89,7 @@ test_dataloader = {
     }
 }
 
-test_evaluator = {'type': 'IoUMetric', 'iou_metrics': ['mIoU', 'mAcc', 'aAcc']}
+test_evaluator = {'type': 'IoUMetric', 'iou_metrics': ['mIoU']}
 
 model = {'decode_head': {'num_classes': 24}, 'test_cfg': {'mode': 'whole'}}
 
