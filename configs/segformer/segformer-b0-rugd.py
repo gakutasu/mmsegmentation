@@ -27,7 +27,7 @@ common_dataset_kwargs = {
 }
 
 train_dataloader = {
-    'batch_size': 2,
+    'batch_size': 4,
     'num_workers': 18,
     'dataset': {
         **common_dataset_kwargs, 'ann_file':
@@ -50,7 +50,7 @@ train_dataloader = {
 }
 
 val_dataloader = {
-    'batch_size': 2,
+    'batch_size': 4,
     'num_workers': 18,
     'dataset': {
         **common_dataset_kwargs, 'ann_file':
@@ -70,7 +70,7 @@ val_dataloader = {
 }
 
 test_dataloader = {
-    'batch_size': 2,
+    'batch_size': 4,
     'num_workers': 18,
     'dataset': {
         **common_dataset_kwargs, 'ann_file':
